@@ -15,4 +15,4 @@ Two graphs are isomorphic if and only if they are one-to-one and onto each other
 so each node in G1 must correspond to a node in G2. It also is one-to-one, so each node can only map to one unique node in G2. Say that G1 has one more vertice than G2.
 There will always be a node in G1 that is not mapped onto by G2, and we cannot map two nodes onto one node of G2 because of the one-to-one property, they must map to unique nodes.
 Additionally, if G1 has another vertice, then there must be at least one edge connecting it to the graph. So G1 would also have at least one more edge than G2. This edge would also make isomorphism impossible 
-because $\ (u,v) \in E_1 iff (f(u), f(v) \in E_2 $ must also stand. If they have a different number of edges than there will be a (u, v) that cannot map onto a unique (f(u), f(v)) in G2.
+because $\ (u,v) \in E_1 <=> (f(u), f(v)) \in E_2$ must also stand. If they have a different number of edges than there will be a (u, v) that cannot map onto a unique (f(u), f(v)) in G2.
